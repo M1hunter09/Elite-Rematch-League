@@ -33,5 +33,3 @@ if(document.getElementById('roleAuditTable')) {
 document.querySelectorAll('.accordion-header').forEach(btn=>{
   btn.onclick = ()=> btn.nextElementSibling.classList.toggle('display');
 });
-```
-}]}
