@@ -17,8 +17,11 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: var(--bg);
-  background-image: url('Images/bg.img') no-repeat center center fixed;
-  background-size: auto;
+  background-image: url('Images/bg.img');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
   color: var(--text-light);
   line-height: 1.6;
 }
