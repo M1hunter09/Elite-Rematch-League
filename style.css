@@ -64,8 +64,12 @@ body {
 
  .logo-wrapper {
   display: flex;
-  align-items: left;
-  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg-alt);
+  background: rgba(0,0,0,0.6);
+  padding: 1rem 2rem;
+  position: relative;
 }
 
 .logo-img {
