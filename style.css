@@ -188,6 +188,9 @@ body {
   border-left: 2px solid var(--blue);
 }
 
+.accordion-body.display {
+  display: block;
+}
 /* Footer */
 footer {
   text-align: center;
