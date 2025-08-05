@@ -30,6 +30,15 @@ if(document.getElementById('roleAuditTable')) {
 }
 
 // Accordion for rules
-document.querySelectorAll('.accordion-header').forEach(btn=>{
-  btn.onclick = ()=> btn.nextElementSibling.classList.toggle('display');
-});
+  // Toggle accordion visibility on header click
+  document.querySelectorAll('.accordion-header').forEach(header => {
+    header.addEventListener('click', () => {
+      header.nextElementSibling.classList.toggle('display');
+    });
+  });
+
+  // Open the first accordion body by default
+  const firstBody = document.querySelector('.accordion-body');
+  if (firstBody) {
+    firstBody.classList.add('display');
+  }
