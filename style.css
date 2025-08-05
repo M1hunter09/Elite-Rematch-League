@@ -184,7 +184,7 @@ body {
 .accordion-body {
   display: none;
   padding: 0.75rem;
-  background: var(--bg);
+  background: var(--bg) rgba(0,0,0,0.2);
   border-left: 2px solid var(--blue);
 }
 
