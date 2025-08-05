@@ -36,11 +36,6 @@ body {
   padding: 1rem 2rem;
   position: relative;
 }
-.navbar .logo {
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--blue);
-}
 .nav-links {
   display: flex;
   gap: 1rem;
