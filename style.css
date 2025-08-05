@@ -32,6 +32,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background: var(--bg-alt);
+  background: rgba(0,0,0,0.6);
   padding: 1rem 2rem;
   position: relative;
 }
@@ -70,17 +71,20 @@ body {
   text-align: center;
   height: 80vh;
   background: var(--bg-alt);
+  background: rgba(0,0,0,0.6);
   padding: 0 1rem;
 }
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
   color: var(--blue-light);
+  background: rgba(0,0,0,0.6);
 }
 .hero p {
   color: var(--text-muted);
   max-width: 600px;
   margin-bottom: 2rem;
+  background: rgba(0,0,0,0.6);
 }
 
 /* Buttons */
@@ -120,7 +124,7 @@ body {
 }
 .card,
 .panel {
-  background: var(--bg-alt);
+  background: var(--bg-alt) rgba(0,0,0,0.6);
   padding: 2rem;
   border-radius: 1rem;
   transition: transform var(--transition);
@@ -188,7 +192,7 @@ body {
 footer {
   text-align: center;
   padding: 2rem;
-  background: var(--bg-alt);
+  background: var(--bg-alt) rgba(0,0,0,0.6);
   font-size: 0.875rem;
   color: var(--text-muted);
 }
