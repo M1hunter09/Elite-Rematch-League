@@ -71,20 +71,20 @@ body {
   text-align: center;
   height: 80vh;
   background: var(--bg-alt);
-  background: rgba(0,0,0,1);
+  background: rgba(0,0,0,0);
   padding: 0 1rem;
 }
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
   color: var(--blue-light);
-  background: rgba(0,0,0,0.8);
+  background: rgba(0,0,0,0.2);
 }
 .hero p {
   color: var(--text-muted);
   max-width: 600px;
   margin-bottom: 2rem;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0,0,0,0.2);
 }
 
 /* Buttons */
