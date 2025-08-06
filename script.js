@@ -23,31 +23,6 @@ const observer = new IntersectionObserver((entries, obs) => {
 const joinBtn = document.getElementById('joinBtn');
 if(joinBtn) joinBtn.onclick = () => window.location.href = 'https://discord.gg/RgAnVV7aKN';
 
-// Fetch and populate dashboard tables from static JSON files
-if (document.getElementById('teamStatusTable')) {
-  fetch('api/teams.json')
-    .then(r => r.json())
-    .then(data => {
-      const tbody = document.querySelector('#teamStatusTable tbody');
-      data.forEach(t => {
-        const row = `<tr><td>${t.name}</td><td>${t.synced}</td><td>${t.flagged}</td></tr>`;
-        tbody.insertAdjacentHTML('beforeend', row);
-      });
-    });
-}
-
-if (document.getElementById('roleAuditTable')) {
-  fetch('api/roles.json')
-    .then(r => r.json())
-    .then(data => {
-      const tbody = document.querySelector('#roleAuditTable tbody');
-      data.forEach(r => {
-        const status = r.match ? 'OK' : 'Mismatch';
-        const row = `<tr><td>${r.name}</td><td>${r.expected}</td><td>${r.actual}</td><td>${status}</td></tr>`;
-        tbody.insertAdjacentHTML('beforeend', row);
-      });
-    });
-}
 
 // Accordion for rules
   // Toggle accordion visibility on header click
@@ -62,3 +37,92 @@ if (document.getElementById('roleAuditTable')) {
   if (firstBody) {
     firstBody.classList.add('display');
   }
+
+
+
+const teamTable = document.getElementById('teamStatusTable');
+const searchInput = document.getElementById('searchInput');
+const flagFilter = document.getElementById('flagFilter');
+const platformFilter = document.getElementById('platformFilter');
+const regionFilter = document.getElementById('regionFilter');
+const toggleBtn = document.getElementById('toggleTableBtn');
+const clearBtn = document.getElementById('clearFiltersBtn');
+
+let originalData = [];
+
+// Load from local JSON file
+if (teamTable) {
+  fetch('teams.json')
+    .then(res => res.json())
+    .then(data => {
+      originalData = data;
+      renderTable(data);
+    })
+    .catch(err => {
+      console.error('Error loading teams.json:', err);
+    });
+}
+
+// Render table rows
+function renderTable(data) {
+  const tbody = teamTable.querySelector('tbody');
+  tbody.innerHTML = '';
+  if (data.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="4">No teams match your search/filter.</td></tr>';
+    return;
+  }
+
+  data.forEach(t => {
+    const row = `
+      <tr>
+        <td>${t.name}</td>
+        <td>${t.flagged}</td>
+        <td>${t.manager}</td>
+        <td>${t.platform} – ${t.region}</td>
+      </tr>`;
+    tbody.insertAdjacentHTML('beforeend', row);
+  });
+}
+
+// Apply filters
+function applyFilters() {
+  const term = searchInput.value.trim().toLowerCase();
+  const flag = flagFilter.value;
+  const platform = platformFilter.value;
+  const region = regionFilter.value;
+
+  const filtered = originalData.filter(team => {
+    const nameMatch = team.name.toLowerCase().includes(term);
+    const managerMatch = team.manager.toLowerCase().includes(term);
+    const flagMatch = flag === 'All' || team.flagged === flag;
+    const platformMatch = platform === 'All' || team.platform === platform;
+    const regionMatch = region === 'All' || team.region === region;
+
+    return (nameMatch || managerMatch) && flagMatch && platformMatch && regionMatch;
+  });
+
+  renderTable(filtered);
+}
+
+// Clear filters
+function clearFilters() {
+  searchInput.value = '';
+  flagFilter.value = 'All';
+  platformFilter.value = 'All';
+  regionFilter.value = 'All';
+  renderTable(originalData);
+}
+
+// Expand/Collapse
+toggleBtn?.addEventListener('click', () => {
+  teamTable.classList.toggle('collapsed');
+  toggleBtn.textContent = teamTable.classList.contains('collapsed') ? 'Expand Table' : 'Collapse Table';
+});
+
+// Listeners
+searchInput?.addEventListener('input', applyFilters);
+flagFilter?.addEventListener('change', applyFilters);
+platformFilter?.addEventListener('change', applyFilters);
+regionFilter?.addEventListener('change', applyFilters);
+clearBtn?.addEventListener('click', clearFilters);
+
