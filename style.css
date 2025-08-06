@@ -239,9 +239,13 @@ footer {
     display: none;
   }
 
-  .hamburger {
-    display: flex;
-  }
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  z-index: 10000;
+}
 
   .cards {
     flex-direction: column;
@@ -260,9 +264,16 @@ footer {
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 .nav-links.open {
-  display: flex; flex-direction: column;
-  position: absolute; top: 64px; right: 2rem;
-  background: var(--card-bg); padding: 1rem; border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 64px;
+  right: 2rem;
+  background: rgba(0, 0, 0, 0.85);
+  padding: 1rem;
+  border-radius: 8px;
+  z-index: 9999; /* <- Ensure it's above everything */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
 .hamburger.open span:nth-child(2) { opacity: 0; }
 .hamburger.open span:nth-child(1) {
