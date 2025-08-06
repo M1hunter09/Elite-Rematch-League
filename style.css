@@ -176,7 +176,8 @@ body {
   margin-top: 1rem;
 }
 
-.tableSection td {
+.tableSection th {
+  position: relative;
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(6px);
   padding: 1rem;
@@ -186,6 +187,7 @@ body {
   box-shadow: 0 0 4px var(--blue-light);
   border: none;
   border-radius: 12px;
+  z-index: 1000;
 }
 
 
