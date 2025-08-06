@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Team Alpha",
+    "flagged": "No",
+    "manager": "CoachZ",
+    "platform": "PC",
+    "region": "NA"
+  },
+  {
+    "name": "Night Owls",
+    "flagged": "Yes",
+    "manager": "NightFox",
+    "platform": "Xbox",
+    "region": "EU"
+  },
+  {
+    "name": "Lag Busters",
+    "flagged": "No",
+    "manager": "Pixel",
+    "platform": "PS",
+    "region": "Asia"
+  }
+]
