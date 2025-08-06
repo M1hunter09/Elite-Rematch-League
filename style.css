@@ -240,13 +240,9 @@ footer {
     display: none;
   }
 
-.hamburger {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  cursor: pointer;
-  z-index: 10000;
-}
+  .hamburger {
+    display: flex;
+  }
 
   .cards {
     flex-direction: column;
