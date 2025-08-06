@@ -23,26 +23,30 @@ const observer = new IntersectionObserver((entries, obs) => {
 const joinBtn = document.getElementById('joinBtn');
 if(joinBtn) joinBtn.onclick = () => window.location.href = 'https://discord.gg/RgAnVV7aKN';
 
-// Fetch and populate dashboard tables (pseudo-API calls)
-if(document.getElementById('teamStatusTable')) {
-  fetch('/api/teams').then(r=>r.json()).then(data=>{
-    const tbody = document.querySelector('#teamStatusTable tbody');
-    data.forEach(t=>{
-      const row = `<tr><td>${t.name}</td><td>${t.synced}</td><td>${t.flagged}</td></tr>`;
-      tbody.insertAdjacentHTML('beforeend', row);
+// Fetch and populate dashboard tables from static JSON files
+if (document.getElementById('teamStatusTable')) {
+  fetch('api/teams.json')
+    .then(r => r.json())
+    .then(data => {
+      const tbody = document.querySelector('#teamStatusTable tbody');
+      data.forEach(t => {
+        const row = `<tr><td>${t.name}</td><td>${t.synced}</td><td>${t.flagged}</td></tr>`;
+        tbody.insertAdjacentHTML('beforeend', row);
+      });
     });
-  });
 }
 
-if(document.getElementById('roleAuditTable')) {
-  fetch('/api/roles').then(r=>r.json()).then(data=>{
-    const tbody = document.querySelector('#roleAuditTable tbody');
-    data.forEach(r=>{
-      const status = r.match ? 'OK' : 'Mismatch';
-      const row = `<tr><td>${r.name}</td><td>${r.expected}</td><td>${r.actual}</td><td>${status}</td></tr>`;
-      tbody.insertAdjacentHTML('beforeend', row);
+if (document.getElementById('roleAuditTable')) {
+  fetch('api/roles.json')
+    .then(r => r.json())
+    .then(data => {
+      const tbody = document.querySelector('#roleAuditTable tbody');
+      data.forEach(r => {
+        const status = r.match ? 'OK' : 'Mismatch';
+        const row = `<tr><td>${r.name}</td><td>${r.expected}</td><td>${r.actual}</td><td>${status}</td></tr>`;
+        tbody.insertAdjacentHTML('beforeend', row);
+      });
     });
-  });
 }
 
 // Accordion for rules
