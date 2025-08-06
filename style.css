@@ -176,15 +176,18 @@ body {
   margin-top: 1rem;
 }
 
-.tableSection {
+.tableSection td {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(6px);
-  padding: 3rem;
+  padding: 1rem;
   color: var(--text-light);
   font-weight: bold;
   text-align: center;
-  box-shadow: 0 0 9px var(--blue-light);
+  box-shadow: 0 0 4px var(--blue-light);
+  border: none;
+  border-radius: 12px;
 }
+
 
 
 .data-table th,
