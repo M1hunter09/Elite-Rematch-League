@@ -179,6 +179,7 @@ body {
 .tableSection {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(6px);
+  padding: 3rem;
   color: var(--text-light);
   font-weight: bold;
   text-align: center;
