@@ -6,7 +6,7 @@
   --blue-light: #66d9ff;
   --text-light: #ffffff;
   --text-muted: #bbbbbb;
-  --transition: 0.3s ease-in-out;
+  --transition: 0.3s;
 }
 
 * {
