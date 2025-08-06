@@ -182,7 +182,7 @@ body {
   color: var(--text-light);
   font-weight: bold;
   text-align: center;
-  border-top: 1px solid #333;
+  border-top: 1px solid;
   box-shadow: 0 0 9px var(--blue-light);
 }
 
