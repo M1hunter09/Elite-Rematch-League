@@ -1,4 +1,5 @@
 [
+{ "section": "PS Teams" },
   {
     "name": "X7",
     "manager": "trxpzz",
@@ -132,6 +133,7 @@
     "platform": "PS",
     "region": "NA"
   },
+{ "section": "PC Teams" },
   {
     "name": "Brussels JK",
     "manager": "BJK | rock.",
@@ -237,6 +239,7 @@
     "platform": "PC",
     "region": "NA"
   },
+{ "section": "Xbox Teams" },
   {
     "name": "Dynamo Nerve",
     "manager": "godel15",
