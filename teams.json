@@ -1,357 +1,352 @@
 [
   {
-    "region": "EU",
+    "name": "X7",
+    "manager": "trxpzz",
+    "flagged": "No",
     "platform": "PS",
-    "teamName": "X7",
-    "managers": ["trxpzz"],
-    "flagged": "no"
+    "region": "EU"
   },
   {
-    "region": "EU",
+    "name": "Full Gas",
+    "manager": "cchoppaaa",
+    "flagged": "No",
     "platform": "PS",
-    "teamName": "Full Gas",
-    "managers": ["cchoppaaa"],
-    "flagged": "no"
+    "region": "EU"
   },
   {
-    "region": "EU",
+    "name": "Wrexham A.F.C",
+    "manager": "uglyant",
+    "flagged": "No",
     "platform": "PS",
-    "teamName": "Wrexham A.F.C",
-    "managers": ["uglyant"],
-    "flagged": "no"
+    "region": "EU"
   },
   {
-    "region": "EU",
+    "name": "NoLimits eSports",
+    "manager": "NL Diogo",
+    "flagged": "No",
     "platform": "PS",
-    "teamName": "NoLimits eSports",
-    "managers": ["NL Diogo"],
-    "flagged": "no"
+    "region": "EU"
   },
   {
-    "region": "EU",
+    "name": "Bloodline eSports",
+    "manager": "BLN Meza",
+    "flagged": "No",
     "platform": "PS",
-    "teamName": "Bloodline eSports",
-    "managers": ["BLN Meza", "cnd", "tokes73"],
-    "flagged": "no"
+    "region": "EU"
   },
   {
-    "region": "EU",
+    "name": "Savage Five",
+    "manager": "Vital 🇵🇹 [Savage 5]",
+    "flagged": "No",
     "platform": "PS",
-    "teamName": "Savage Five",
-    "managers": ["Vital 🇵🇹 [Savage 5]"],
-    "flagged": "no"
+    "region": "EU"
   },
   {
-    "region": "EU",
+    "name": "Manchester United",
+    "manager": "juniordd321",
+    "flagged": "No",
     "platform": "PS",
-    "teamName": "Manchester United",
-    "managers": ["juniordd321"],
-    "flagged": "no"
+    "region": "EU"
   },
   {
-    "region": "EU",
+    "name": "Volare eSports",
+    "manager": "VLR | 🗿Mark16🇵🇹",
+    "flagged": "No",
     "platform": "PS",
-    "teamName": "Volare eSports",
-    "managers": ["VLR | 🗿Mark16🇵🇹"],
-    "flagged": "no"
+    "region": "EU"
   },
   {
-    "region": "EU",
+    "name": "Bastard München",
+    "manager": "JayC11",
+    "flagged": "No",
     "platform": "PS",
-    "teamName": "Bastard München",
-    "managers": ["JayC11", "Hoxaz_"],
-    "flagged": "no"
+    "region": "EU"
   },
   {
-    "region": "EU",
+    "name": "Fram fc",
+    "manager": "supremehall.",
+    "flagged": "No",
     "platform": "PS",
-    "teamName": "Fram fc",
-    "managers": ["supremehall.", "Tarek🇪🇬"],
-    "flagged": "no"
+    "region": "EU"
   },
   {
-    "region": "EU",
+    "name": "Celtic FC",
+    "manager": "Sir Alex Ferguson | Celtic",
+    "flagged": "No",
     "platform": "PS",
-    "teamName": "Celtic FC",
-    "managers": ["Sir Alex Ferguson | Celtic", "Liam.1967"],
-    "flagged": "no"
+    "region": "EU"
   },
   {
-    "region": "EU",
+    "name": "Aston Villa",
+    "manager": "LAVBOYOS#ASTON VILLA",
+    "flagged": "No",
     "platform": "PS",
-    "teamName": "Aston Villa",
-    "managers": ["LAVBOYOS#ASTON VILLA", "エゴイスト"],
-    "flagged": "no"
-  },
-
-  {
-    "region": "NA",
-    "platform": "PS",
-    "teamName": "Derkin FC",
-    "managers": ["𝐒𝐭𝐲𝐥𝐬"],
-    "flagged": "no"
+    "region": "EU"
   },
   {
-    "region": "NA",
+    "name": "Derkin FC",
+    "manager": "𝐒𝐭𝐲𝐥𝐬",
+    "flagged": "No",
     "platform": "PS",
-    "teamName": "Reign FC",
-    "managers": ["Daddyboi5-"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "Reign FC",
+    "manager": "Daddyboi5-",
+    "flagged": "No",
     "platform": "PS",
-    "teamName": "Busters FC",
-    "managers": ["✟ ummoliver ✟"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "Busters FC",
+    "manager": "✟ ummoliver ✟",
+    "flagged": "No",
     "platform": "PS",
-    "teamName": "Inter Miami",
-    "managers": ["𝓢𝓪𝓳"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "Inter Miami",
+    "manager": "𝓢𝓪𝓳",
+    "flagged": "No",
     "platform": "PS",
-    "teamName": "Reign (reap)",
-    "managers": ["MV_Reaper"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "Reign (reap)",
+    "manager": "MV_Reaper",
+    "flagged": "No",
     "platform": "PS",
-    "teamName": "S.S Lazio",
-    "managers": ["Mophair"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "S.S Lazio",
+    "manager": "Mophair",
+    "flagged": "No",
     "platform": "PS",
-    "teamName": "Bloodline Wolves",
-    "managers": ["BLN IceFyre1"],
-    "flagged": "no"
+    "region": "NA"
   },
-
   {
-    "region": "EU",
+    "name": "Bloodline Wolves",
+    "manager": "BLN IceFyre1",
+    "flagged": "No",
+    "platform": "PS",
+    "region": "NA"
+  },
+  {
+    "name": "Brussels JK",
+    "manager": "BJK | rock.",
+    "flagged": "No",
     "platform": "PC",
-    "teamName": "Brussels JK",
-    "managers": ["BJK | rock."],
-    "flagged": "no"
+    "region": "EU"
   },
   {
-    "region": "EU",
+    "name": "Crows united",
+    "manager": "Yellow Guy",
+    "flagged": "No",
     "platform": "PC",
-    "teamName": "Crows united",
-    "managers": ["Yellow Guy"],
-    "flagged": "no"
+    "region": "EU"
   },
   {
-    "region": "EU",
+    "name": "Pharos FC",
+    "manager": "Loay",
+    "flagged": "No",
     "platform": "PC",
-    "teamName": "Pharos FC",
-    "managers": ["Loay"],
-    "flagged": "no"
+    "region": "EU"
   },
-
   {
-    "region": "NA",
+    "name": "Hell Storm FC",
+    "manager": "itoshi_rin",
+    "flagged": "No",
     "platform": "PC",
-    "teamName": "Hell Storm FC",
-    "managers": ["itoshi_rin"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "Crysis",
+    "manager": "HoLee",
+    "flagged": "No",
     "platform": "PC",
-    "teamName": "Crysis",
-    "managers": ["HoLee"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "Sinners FC",
+    "manager": "SFC | Asaisan",
+    "flagged": "No",
     "platform": "PC",
-    "teamName": "Sinners FC",
-    "managers": ["SFC | Asaisan"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "Final Whistle",
+    "manager": "somebody619",
+    "flagged": "No",
     "platform": "PC",
-    "teamName": "Final Whistle",
-    "managers": ["somebody619"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "Rush FC",
+    "manager": "MrGrim",
+    "flagged": "No",
     "platform": "PC",
-    "teamName": "Rush FC",
-    "managers": ["MrGrim"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "Los Banditos",
+    "manager": "gaki",
+    "flagged": "No",
     "platform": "PC",
-    "teamName": "Los Banditos",
-    "managers": ["gaki"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "Zena FC",
+    "manager": "tonyfps.",
+    "flagged": "No",
     "platform": "PC",
-    "teamName": "Zena FC",
-    "managers": ["tonyfps."],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "Not Yet Labeled B",
+    "manager": "NYL | Doug",
+    "flagged": "No",
     "platform": "PC",
-    "teamName": "Not Yet Labeled B",
-    "managers": ["NYL | Doug"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "Crowns of Victory",
+    "manager": "Izanagi",
+    "flagged": "No",
     "platform": "PC",
-    "teamName": "Crowns of Victory",
-    "managers": ["Izanagi"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "Notyetlabeled FC",
+    "manager": "Gordo",
+    "flagged": "No",
     "platform": "PC",
-    "teamName": "Notyetlabeled FC",
-    "managers": ["Gordo"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "I Heart Latinas",
+    "manager": "Glimpse",
+    "flagged": "No",
     "platform": "PC",
-    "teamName": "I Heart Latinas",
-    "managers": ["Glimpse"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "8BIT Nation",
+    "manager": "MiniObito3",
+    "flagged": "No",
     "platform": "PC",
-    "teamName": "8BIT Nation",
-    "managers": ["MiniObito3"],
-    "flagged": "no"
-  },
-
-  {
-    "region": "EU",
-    "platform": "Xbox",
-    "teamName": "Dynamo Nerve",
-    "managers": ["godel15"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "EU",
+    "name": "Dynamo Nerve",
+    "manager": "godel15",
+    "flagged": "No",
     "platform": "Xbox",
-    "teamName": "Wrexham A.F.C",
-    "managers": ["Tongface"],
-    "flagged": "no"
+    "region": "EU"
   },
   {
-    "region": "EU",
+    "name": "Wrexham A.F.C",
+    "manager": "Tongface",
+    "flagged": "No",
     "platform": "Xbox",
-    "teamName": "FC Barcelona",
-    "managers": ["Pau Cubarsi"],
-    "flagged": "no"
+    "region": "EU"
   },
   {
-    "region": "EU",
+    "name": "FC Barcelona",
+    "manager": "Pau Cubarsi",
+    "flagged": "No",
     "platform": "Xbox",
-    "teamName": "Portsmouth F.C",
-    "managers": ["🏴R22D🥶", "Lambey.11."],
-    "flagged": "no"
+    "region": "EU"
   },
   {
-    "region": "EU",
+    "name": "Portsmouth F.C",
+    "manager": "🏴R22D🥶",
+    "flagged": "No",
     "platform": "Xbox",
-    "teamName": "Gawad FC",
-    "managers": ["Kurdin"],
-    "flagged": "no"
+    "region": "EU"
   },
   {
-    "region": "EU",
+    "name": "Gawad FC",
+    "manager": "Kurdin",
+    "flagged": "No",
     "platform": "Xbox",
-    "teamName": "NevrLusen AFC",
-    "managers": ["thekplife_ttv"],
-    "flagged": "no"
-  },
-
-  {
-    "region": "NA",
-    "platform": "Xbox",
-    "teamName": "NME",
-    "managers": ["[NME]syra"],
-    "flagged": "no"
+    "region": "EU"
   },
   {
-    "region": "NA",
+    "name": "NevrLusen AFC",
+    "manager": "thekplife_ttv",
+    "flagged": "No",
     "platform": "Xbox",
-    "teamName": "Techas FC",
-    "managers": [""],
-    "flagged": "no"
+    "region": "EU"
   },
   {
-    "region": "NA",
+    "name": "NME",
+    "manager": "[NME]syra",
+    "flagged": "No",
     "platform": "Xbox",
-    "teamName": "Innovation FC",
-    "managers": ["Brad"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "Techas FC",
+    "manager": "",
+    "flagged": "No",
     "platform": "Xbox",
-    "teamName": "Yellowstone FC",
-    "managers": ["Lakaka"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "Innovation FC",
+    "manager": "Brad",
+    "flagged": "No",
     "platform": "Xbox",
-    "teamName": "Nori",
-    "managers": ["NORI | EZZOTIC | GK"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "Yellowstone FC",
+    "manager": "Lakaka",
+    "flagged": "No",
     "platform": "Xbox",
-    "teamName": "NRGY FC",
-    "managers": ["Tom"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "Nori",
+    "manager": "NORI | EZZOTIC | GK",
+    "flagged": "No",
     "platform": "Xbox",
-    "teamName": "The Royals",
-    "managers": ["BLN | Tweaker"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "NRGY FC",
+    "manager": "Tom",
+    "flagged": "No",
     "platform": "Xbox",
-    "teamName": "Club Athletico-Brasileiro",
-    "managers": ["mattinio2"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "The Royals",
+    "manager": "BLN | Tweaker",
+    "flagged": "No",
     "platform": "Xbox",
-    "teamName": "Paradox Zero",
-    "managers": ["vriidy"],
-    "flagged": "no"
+    "region": "NA"
   },
   {
-    "region": "NA",
+    "name": "Club Athletico-Brasileiro",
+    "manager": "mattinio2",
+    "flagged": "No",
     "platform": "Xbox",
-    "teamName": "Royal key",
-    "managers": ["chaoticnick7"],
-    "flagged": "no"
+    "region": "NA"
+  },
+  {
+    "name": "Paradox Zero",
+    "manager": "vriidy",
+    "flagged": "No",
+    "platform": "Xbox",
+    "region": "NA"
+  },
+  {
+    "name": "Royal key",
+    "manager": "chaoticnick7",
+    "flagged": "No",
+    "platform": "Xbox",
+    "region": "NA"
   }
 ]
