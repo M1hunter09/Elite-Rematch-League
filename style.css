@@ -154,6 +154,7 @@ body {
 .card,
 .panel {
   padding: 2rem;
+  align-items: center;
   border-radius: 1rem;
   transition: transform var(--transition);
   backdrop-filter: blur(6px);
