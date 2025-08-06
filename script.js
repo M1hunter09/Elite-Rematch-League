@@ -67,12 +67,22 @@ if (teamTable) {
 function renderTable(data) {
   const tbody = teamTable.querySelector('tbody');
   tbody.innerHTML = '';
+
   if (data.length === 0) {
     tbody.innerHTML = '<tr><td colspan="4">No teams match your search/filter.</td></tr>';
     return;
   }
 
   data.forEach(t => {
+    if (t.section) {
+      const sectionRow = `
+        <tr class="tableSection">
+          <td colspan="4">🎮 ${t.section}</td>
+        </tr>`;
+      tbody.insertAdjacentHTML('beforeend', sectionRow);
+      return;
+    }
+
     const row = `
       <tr>
         <td>${t.name}</td>
@@ -92,6 +102,8 @@ function applyFilters() {
   const region = regionFilter.value;
 
   const filtered = originalData.filter(team => {
+    if (team.section) return true;
+
     const nameMatch = team.name.toLowerCase().includes(term);
     const managerMatch = team.manager.toLowerCase().includes(term);
     const flagMatch = flag === 'All' || team.flagged === flag;
