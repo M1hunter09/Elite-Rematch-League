@@ -184,6 +184,31 @@ body {
   color: var(--text-muted);
 }
 
+.table-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.table-controls input,
+.table-controls select,
+.table-controls button {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: none;
+  background: #1a1a1a;
+  color: white;
+  outline: none;
+}
+
+#teamStatusTable.collapsed {
+  display: none;
+}
+
+
 /* Forms */
 .form input,
 .form textarea {
