@@ -31,22 +31,44 @@
   <main class="page-content">
     <h2>🛠️ Operations Dashboard</h2>
     <!-- Team Status Panel -->
-    <section class="panel">
-      <h3>Team Status Panel</h3>
-      <table id="teamStatusTable" class="data-table">
-        <thead><tr><th>Team</th><th>Synced</th><th>Flagged</th></tr></thead>
-        <tbody><!-- Populated via JS --></tbody>
-      </table>
-    </section>
+    <div class="table-controls">
+  <input type="text" id="searchInput" placeholder="🔍 Team or Manager..." />
 
-    <!-- Role Audit Tool -->
-    <section class="panel">
-      <h3>Role Audit Tool</h3>
-      <table id="roleAuditTable" class="data-table">
-        <thead><tr><th>Role</th><th>Expected</th><th>Actual</th><th>Status</th></tr></thead>
-        <tbody><!-- Populated via JS --></tbody>
-      </table>
-    </section>
+  <select id="flagFilter">
+    <option value="All">All Status</option>
+    <option value="Yes">Flagged Only</option>
+    <option value="No">Not Flagged</option>
+  </select>
+
+  <select id="platformFilter">
+    <option value="All">All Platforms</option>
+    <option value="PC">PC</option>
+    <option value="Xbox">Xbox</option>
+    <option value="PS">PS</option>
+  </select>
+
+  <select id="regionFilter">
+    <option value="All">All Regions</option>
+    <option value="NA">North America</option>
+    <option value="EU">Europe</option>
+    <option value="Asia">Asia</option>
+  </select>
+
+  <button id="clearFiltersBtn">Clear Filters</button>
+  <button id="toggleTableBtn">Collapse Table</button>
+</div>
+<table id="teamStatusTable" class="data-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Flagged</th>
+      <th>Manager</th>
+      <th>Platform & Region</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
   </main>
 
   <footer>&copy; 2025 Elite Rematch League</footer>
