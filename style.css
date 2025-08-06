@@ -5,7 +5,7 @@
   --blue-light: #66d9ff;
   --text-light: #ffffff;
   --text-muted: #bbbbbb;
-  --transition: 0.3s;
+  --transition: 0.3s ease-in-out;
 }
 
 * {
@@ -31,8 +31,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: var(--bg-alt);
-  background: rgba(0,0,0,0.6);
+  background: var(--bg-alt), rgba(0,0,0,0.6);
   padding: 1rem 2rem;
   position: relative;
 }
@@ -77,15 +76,21 @@ body {
   justify-content: center;
   text-align: center;
   height: 80vh;
-  background: var(--bg-alt);
-  background: rgba(0,0,0,0);
+  background: var(--bg-alt), rgba(0,0,0,0);
   padding: 0 1rem;
 }
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 10px var(--blue); }
+  50% { box-shadow: 0 0 20px var(--blue-light); }
+}
+
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
   color: var(--blue-light);
   background: rgba(0,0,0,0.2);
+  animation: pulse 3s infinite;
 }
 .hero p {
   color: var(--text-muted);
@@ -131,7 +136,8 @@ body {
 }
 .card,
 .panel {
-  background: var(--bg-alt) rgba(0,0,0,0.6);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 24px rgba(0, 174, 239, 0.1);
   padding: 2rem;
   border-radius: 1rem;
   transition: transform var(--transition);
@@ -139,6 +145,7 @@ body {
 .card:hover,
 .panel:hover {
   transform: translateY(-5px);
+  box-shadow: 0 0 18px var(--blue-light);
 }
 
 /* Tables */
@@ -191,7 +198,7 @@ body {
 .accordion-body {
   display: none;
   padding: 0.75rem;
-  background: var(--bg) rgba(0,0,0,0.2);
+  background: var(--bg), rgba(0,0,0,0.2);
   border-left: 2px solid var(--blue);
 }
 
@@ -202,7 +209,7 @@ body {
 footer {
   text-align: center;
   padding: 2rem;
-  background: var(--bg-alt) rgba(0,0,0,0.6);
+  background: var(--bg-alt), rgba(0,0,0,0.6);
   font-size: 0.875rem;
   color: var(--text-muted);
 }
