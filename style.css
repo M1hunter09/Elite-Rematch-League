@@ -354,11 +354,17 @@ footer {
   }
 }
 
-  .data-table, .data-table th, .data-table td {
+.data-table th, .data-table td {
     font-size: 0.85rem;
     padding: 0.5rem;
     white-space: nowrap;
   }
+
+  .data-table {
+ min-width: 500px;
+ max-width: 760px;
+ margin: 0 auto;
+}
 
 /* scroll-reveal & mobile nav */
 .hidden { opacity: 0; transform: translateY(20px); }
