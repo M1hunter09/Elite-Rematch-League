@@ -306,7 +306,7 @@ footer {
 .nav-links.open {
   display: flex; flex-direction: column;
   position: absolute; top: 64px; right: 2rem;
-  background: var(--bg-alt); padding: 1rem; border-radius: 8px;
+  background: var(--bg-alt); padding: 1rem; z-index: 9999; border-radius: 8px;
 }
 .hamburger.open span:nth-child(2) { opacity: 0; }
 .hamburger.open span:nth-child(1) {
